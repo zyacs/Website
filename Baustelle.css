@@ -1,0 +1,55 @@
+.navigation {
+  display: flex;
+  flex-flow: row wrap; /*festlegung vom flex wie er verläuft*/
+  justify-content: flex-end; /*dem inhalt wird gesagt am ende der seite zu sein*/
+  
+  list-style: none;
+  margin: 0; 
+  background: lightgray;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block; 
+  padding: 1em;
+  color: blue;
+}
+
+.navigation a:hover {
+  background: black;
+}
+.container{
+  display: flex;
+  width: 100%;  /*Breite wird festgelegt*/
+  height: 100%; /*höhe wird festgelegt*/
+  flex-direction: row; /*in eine Linie*/
+  flex-basis: auto; /*Kästchen alle gleich groß*/
+  justify-content: space-around; /*Macht platz zwischen den kästchen*/
+  border: solid black 1px;
+}
+.Iframe1{
+
+  width: 200px;
+  height: 1024px;
+  margin-left: -100px;
+}
+.Iframe2{
+
+  width: 200px; /*Breite wird festgelegt*/
+  height: 150px; /*höhe wird festgelegt*/
+}
+.Impressum{
+  float: left; /*Impressum wird nach links verlegt*/
+  margin-left: -110px; /*Der Abstand nach links wird festgelegt*/
+}
+.article{
+  height: 500px; /*Höhe der Box*/
+  border: solid black 1px; /*um die box wird eine linie gezogen in schwarz und breite der linie festgelegt*/
+  width: 600px; /*breite der Box */
+  min-width: 300px; /*mindestgröße wenn seite zusammen gezogen wird*/
+  background: url(e36_320i.jpg); /*Bild eingefügt mit css*/
+  
+}
+.Logoicon{
+  float: left;
+}
